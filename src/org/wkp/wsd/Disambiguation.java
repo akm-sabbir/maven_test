@@ -179,7 +179,7 @@ public class Disambiguation
   throws IOException, ClassNotFoundException
   {
 	TokenMatrix tm = null;
-
+/*
 	{
       ObjectInputStream i = new ObjectInputStream(new GZIPInputStream(new FileInputStream(argc[0])));
       tm = (TokenMatrix)i.readObject();
@@ -210,7 +210,7 @@ public class Disambiguation
 
 	Map <String, List <String>> benchmark = Benchmark.load(argc[4]);
 
-	disambiguate(tm, cm, cui_tm, benchmark, lambda_model, argc[5]);
+	disambiguate(tm, cm, cui_tm, benchmark, lambda_model, argc[5]);*/
   }
 
   public static Map <Integer, Double> getProfile(String concept,
